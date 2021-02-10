@@ -1,0 +1,49 @@
+:root{
+    --hatter: grey;
+    --menu: black;
+    --feher: white;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#menuszalag{
+    width: 100%;
+    min-height: 50px;
+    background-color: var(--menu);
+    color: white;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#menuszalag ul{
+    display: inline;
+
+}
+
+
+#menuszalag ul li{
+    display: inline;
+    padding: 10px;
+    line-height: 50px;
+}
+
+#tartalom{
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    background-color: var(--hatter);
+}
+
+h1{
+margin: 0;
+}
+
+
